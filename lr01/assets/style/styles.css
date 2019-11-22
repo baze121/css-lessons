@@ -1,59 +1,99 @@
-.logo {
-    position: absolute;
-    left: 44px;
-    right: 1369.39px;
-    top: 30px;
-    bottom: 37.7px;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
 
+button{
+    padding: 0;
 }
-.mic {
-    position: relative;
-    left: 1034px;
-    right: 358px;
-    top: 24px;
-    bottom: 23px;
+    
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+    align-items: center;
 }
-.serch {
-    position: absolute;
-    left: 955px;
-    right: 449px;
-    top: 36px;
-    bottom:29px ;
-}
-.avatar {
-    position: absolute;
-    left: 1348px;
-    right: 44px;
-    top: 24px;
-    bottom: 23px;
-}
-.coloc {
-    position: absolute;
-    left: 1309px;
-    right: 116px;
-    top: 39px;
-    bottom: 41px;
-}
-.idn {
-    position: absolute;
-    left: 1260px;
-    right: 155px;
-    top: 40px;
-    bottom: 39px;
-}
-.poisk {
+
+
+.search-form {
     width: 556px;
     height: 48px;
-    position: absolute;
-    left: 442px;
-    right: 442px;
-    top: 24px;
-    bottom: 23px;
     background-color: #F8F8F8;
     border-radius: 24px;
-
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
+    display: flex;
+} 
+
+.search-input{
+    background-color: #F8F8F8;
+    border-radius: 24px;
+    width: 510px;
+    border: none;
+    padding: 13px 24px;
+    outline: none;
+    font: 400 18px 'Lato' !important;
+    color: #212121;
+}
+
+.layout-center {
+   padding: 0 44px;
+}
+.d-flex{
+    display: flex;
+}
+.search-btn {
+    display: flex;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+}
+.mic {
+    display: flex;
+    border: 0;
+    background: transparent;
+    padding: 0 36px
+}
+.avatar {
+    outline: none;
+    background: transparent;
+    border: 0;
+}
+.coloc {
+    outline: none;
+    background: transparent;
+    border: 0;
+}
+.idn {
+    outline: none;
+    background: transparent;
+    border: 0;
+}
+.layout-center-navigation {
+    padding: 0 504px;
+}
+.navigations {
+    font-size: 14px;
+    font: 400 14px 'Lato' !important;
+    display: flex;
 }

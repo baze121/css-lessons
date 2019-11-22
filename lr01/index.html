@@ -5,28 +5,61 @@
     <meta charset="UTF-8">
     <title>Google Search Redesign</title>
     <link href="assets/style/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <form>
-        <header>
-            <div>
-                <input class="poisk">
-                <a class="logo">
-                    <img src="C:\Users\olymp\Desktop\kt\css-lessons\lr01\assets\images\logo.png">
-                    <a class="mic">
-                        <img src="C:\Users\olymp\Desktop\kt\css-lessons\lr01\assets\images\mic.png">
-                        <a class="serch">
-                            <img src=C:\Users\olymp\Desktop\kt\css-lessons\lr01\assets\images\Group6.png>
-                            <a class="avatar">
-                                <img src="C:\Users\olymp\Desktop\kt\css-lessons\lr01\assets\images\avatar.png">
-                                <a class="coloc">
-                                    <img src="C:\Users\olymp\Desktop\kt\css-lessons\lr01\assets\images\CombinedShape.png">
-                                    <a class="idn">
-                                        <img src="C:\Users\olymp\Desktop\kt\css-lessons\lr01\assets\images\apps-material.png">
-                        </a>
+    <div class="layout-center">
+        <header class="header">
+
+            <a class="logo">
+                <img src="C:\Users\olymp\Desktop\lb\css-lessons\lr01\assets\images\logo.png">
+            </a>
+            <form class="d-flex">
+                <div class="search-form">
+                    <input class="search-input">
+                    <button class="search-btn">
+                        <img src="C:\Users\olymp\Desktop\lb\css-lessons\lr01\assets\images\Group6.png">
+                    </button>
+                </div>
+                <button class="mic">
+                    <img src="C:\Users\olymp\Desktop\lb\css-lessons\lr01\assets\images\mic.png">
+                </button>
+            </form>
+            <div style="display: flex; width: 122px; justify-content: space-between;">
+                <button class="idn">
+                    <img src="C:\Users\olymp\Desktop\lb\css-lessons\lr01\assets\images\apps-material.png">
+                </button>
+                <button class="coloc">
+                    <img src="C:\Users\olymp\Desktop\lb\css-lessons\lr01\assets\images\CombinedShape.png">
+                </button>
+                <button class="avatar">
+                    <img src="C:\Users\olymp\Desktop\lb\css-lessons\lr01\assets\images\avatar.png">
+                </button>
             </div>
+
+
         </header>
-    </form>
+    </div>
+<div class="layout-center-navigation" style="display: flex;">
+        <ul class="navigations" style="display: flex; width: 431px; justify-content: space-between;">
+            <a>Glance</a>
+            <a>All</a>
+            <a>Images</a>
+            <a>News</a>
+            <a>Videos</a>
+            <a>Maps</a>
+            <a>More</a>
+        </ul>         
+        <div>
+            <ul>
+                <a>Settings</a>
+                <a>Tools</a>
+            </ul>
+        </div>     
+</div> 
+
+
 </body>
+
 </html>
