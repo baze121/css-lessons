@@ -89,11 +89,44 @@ button{
     background: transparent;
     border: 0;
 }
-.layout-center-navigation {
-    padding: 0 504px;
-}
-.navigations {
+
+.navigation {
     font-size: 14px;
-    font: 400 14px 'Lato' !important;
+    font: 600 14px 'Lato' !important;
+    list-style: none;
     display: flex;
+    flex: 3;
+    justify-content: center;
+}
+.navigation-side {
+    font-size: 14px;
+    font: 600 14px 'Lato' !important;
+    flex: 1;
+    display: flex;
+    list-style: none;
+}
+
+
+.navigation li{
+    padding: 0 15px;
+}
+
+.navigation-side li{
+    padding: 0 13px;
+}
+
+a:hover{
+    border-bottom: 3px solid #4285F4;
+    padding: 0 0 10px;
+    
+}
+ /* a:hover .active {
+    border-bottom: 3px solid #4285F4;
+} */
+.img {
+    background-color: #F2F2F2;
+    padding: 44px 0 0;
+
+}
+.bitmap {
 }
