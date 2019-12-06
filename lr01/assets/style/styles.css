@@ -115,18 +115,164 @@ button{
     padding: 0 13px;
 }
 
-a:hover{
+/* a:hover{
     border-bottom: 3px solid #4285F4;
     padding: 0 0 10px;
     
-}
- /* a:hover .active {
-    border-bottom: 3px solid #4285F4;
 } */
+ 
 .img {
     background-color: #F2F2F2;
     padding: 44px 0 0;
 
 }
-.bitmap {
+
+.content {
+    padding-top: 44px;
+    padding-bottom: 45px;
+    width: 100%;
+    background: #F2F2F2;
 }
+.layout-center2 {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 44px;
+    padding-right: 44px;
+}
+.card {
+width: 360px;
+height: 260px;
+background: #ffffff;
+box-shadow: 0px 1px 3px rgba(0,0,0, 0.138162);
+border-radius: 4px;
+margin-bottom: 22px;
+padding: 26px 24px 22px;
+box-sizing: border-box;
+position: relative;
+}
+.card1-top {
+    /* font-size: 18px;
+    font-weight: 900; */
+    line-height: 22px;
+    color: #212121;
+    font: 900 18px 'Lato' !important;
+    letter-spacing: 0.75px;
+    padding-bottom: 21px;
+}
+
+.card1-a {
+    font: normal 15px 'Lato' !important;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    color: #4885ED;
+    margin-bottom: 8px;
+    padding-top: 20.5px;
+    cursor: pointer;
+}
+
+.card1-p {
+    font: 300 13px 'Lato' !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 21px;
+    color: #212121;
+    padding-bottom: 44px;
+}
+.link {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.8px;
+    color: #39912E;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.card2-top {
+    font: 900 15px 'Lato' !important;
+    line-height: 23px;
+    color: #212121;
+    padding-bottom: 21px;
+    
+}
+.card2-a {
+    font: normal 15px 'Lato' !important;
+    line-height: 23px;
+    color: #212121;
+}
+.wiki-pos {
+    position: absolute;
+    bottom: 22px;
+}
+.wiki {
+    display: inline-block;
+    font: 500 15px 'Lato' !important;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.8px;
+    color: #4e4e4e;
+}
+.card2 {
+    width: 360px;
+    height: 120px;
+    background: #4285F4;
+    box-shadow: 0px 1px 3px rgba(0,0,0, 0.138162);
+    border-radius: 4px;
+    margin-bottom: 22px;
+    padding: 26px 24px 22px;
+    box-sizing: border-box;
+    position: relative;
+    
+ }
+ .flights {
+    display: inline-block;
+    line-height: 22px;
+    color: #FFFFFF;
+    font: 900 18px 'Lato' !important;
+    letter-spacing: 0.75px;
+    padding-bottom: 50px;
+ }
+
+ .flights-pos {
+    padding-bottom: 14px;
+    position: absolute;
+    bottom: 20px;
+ } 
+
+.card3-p {
+    font: normal 15px 'Lato' !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    padding-top: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
