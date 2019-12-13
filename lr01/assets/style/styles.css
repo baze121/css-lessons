@@ -1,35 +1,102 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
     vertical-align: baseline;
 }
 
-button{
+button {
     padding: 0;
 }
-    
+
 .header {
     display: flex;
     justify-content: space-between;
     padding: 24px 0;
     align-items: center;
 }
-
 
 .search-form {
     width: 556px;
@@ -41,9 +108,9 @@ button{
     font-size: 18px;
     line-height: 22px;
     display: flex;
-} 
+}
 
-.search-input{
+.search-input {
     background-color: #F8F8F8;
     border-radius: 24px;
     width: 510px;
@@ -55,11 +122,13 @@ button{
 }
 
 .layout-center {
-   padding: 0 44px;
+    padding: 0 44px;
 }
-.d-flex{
+
+.d-flex {
     display: flex;
 }
+
 .search-btn {
     display: flex;
     align-items: center;
@@ -68,22 +137,26 @@ button{
     outline: none;
     padding: 0 8px;
 }
+
 .mic {
     display: flex;
     border: 0;
     background: transparent;
     padding: 0 36px
 }
+
 .avatar {
     outline: none;
     background: transparent;
     border: 0;
 }
+
 .coloc {
     outline: none;
     background: transparent;
     border: 0;
 }
+
 .idn {
     outline: none;
     background: transparent;
@@ -98,6 +171,7 @@ button{
     flex: 3;
     justify-content: center;
 }
+
 .navigation-side {
     font-size: 14px;
     font: 600 14px 'Lato' !important;
@@ -106,25 +180,24 @@ button{
     list-style: none;
 }
 
-
-.navigation li{
+.navigation li {
     padding: 0 15px;
 }
 
-.navigation-side li{
+.navigation-side li {
     padding: 0 13px;
 }
+
 
 /* a:hover{
     border-bottom: 3px solid #4285F4;
     padding: 0 0 10px;
     
 } */
- 
+
 .img {
     background-color: #F2F2F2;
     padding: 44px 0 0;
-
 }
 
 .content {
@@ -133,23 +206,27 @@ button{
     width: 100%;
     background: #F2F2F2;
 }
+
 .layout-center2 {
     max-width: 1440px;
     margin: 0 auto;
     padding-left: 44px;
     padding-right: 44px;
+    display: flex;
 }
+
 .card {
-width: 360px;
-height: 260px;
-background: #ffffff;
-box-shadow: 0px 1px 3px rgba(0,0,0, 0.138162);
-border-radius: 4px;
-margin-bottom: 22px;
-padding: 26px 24px 22px;
-box-sizing: border-box;
-position: relative;
+    width: 360px;
+    height: 260px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.138162);
+    border-radius: 4px;
+    margin-bottom: 22px;
+    padding: 26px 24px 22px;
+    box-sizing: border-box;
+    position: relative;
 }
+
 .card1-top {
     /* font-size: 18px;
     font-weight: 900; */
@@ -180,6 +257,7 @@ position: relative;
     color: #212121;
     padding-bottom: 44px;
 }
+
 .link {
     font-family: Lato;
     font-style: normal;
@@ -197,17 +275,19 @@ position: relative;
     line-height: 23px;
     color: #212121;
     padding-bottom: 21px;
-    
 }
+
 .card2-a {
     font: normal 15px 'Lato' !important;
     line-height: 23px;
     color: #212121;
 }
+
 .wiki-pos {
     position: absolute;
     bottom: 22px;
 }
+
 .wiki {
     display: inline-block;
     font: 500 15px 'Lato' !important;
@@ -216,63 +296,164 @@ position: relative;
     letter-spacing: 0.8px;
     color: #4e4e4e;
 }
+
 .card2 {
     width: 360px;
     height: 120px;
     background: #4285F4;
-    box-shadow: 0px 1px 3px rgba(0,0,0, 0.138162);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.138162);
     border-radius: 4px;
     margin-bottom: 22px;
     padding: 26px 24px 22px;
     box-sizing: border-box;
     position: relative;
-    
- }
- .flights {
+}
+
+.flights {
     display: inline-block;
     line-height: 22px;
     color: #FFFFFF;
     font: 900 18px 'Lato' !important;
     letter-spacing: 0.75px;
-    padding-bottom: 50px;
- }
+    padding-bottom: 15px;
+}
 
- .flights-pos {
+
+/* .flights-pos {
     padding-bottom: 14px;
     position: absolute;
-    bottom: 20px;
- } 
+    bottom: 15px;
+ }  */
 
 .card3-p {
     font: normal 15px 'Lato' !important;
     font-style: normal;
     font-weight: 500;
     line-height: 23px;
-    padding-top: 14px;
+    padding-top: 25px;
 }
 
+.card-midlle1 {
+    width: 664px;
+    height: 390px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.138162);
+    border-radius: 4px;
+    /* margin-bottom: 22px; */
+    /* padding: 26px 24px 22px; */
+    box-sizing: border-box;
+    position: relative;
+}
 
+.card-midlle2 {
+    width: 664px;
+    height: 48px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.138162);
+    border-radius: 4px;
+    /* margin-bottom: 22px; */
+    /* padding: 26px 24px 22px; */
+    box-sizing: border-box;
+    position: relative;
+}
 
+.fig-caption-btns {
+    font: normal 15px 'Lato' !important;
+    font-size: 14px;
+    line-height: 17px;
+    color: #212121;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 25px;
+}
 
+.visit,
+.save,
+.Share {
+    position: relative;
+    top: 3px;
+    margin-right: 7.5px;
+}
 
+.card-midlle3 {
+    width: 664px;
+    height: 103px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.138162);
+    border-radius: 4px;
+    margin-bottom: 22px;
+    padding: 0 24px 22px;
+    box-sizing: border-box;
+    position: relative;
+}
 
+.card-m {
+    font: normal 14px 'Lato' !important;
+    line-height: 17px;
+    color: #4e4e4e;
+    margin-bottom: 8px;
+}
 
+.card-m2 {
+    font: normal 16px 'Lato' !important;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 23px;
+    color: #4885ED;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
 
+.card-m3 {
+    font: normal 13px 'Lato' !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.8px;
+    color: #4e4e4e;
+    padding-top: 10px;
+}
 
+.card-middle4 {
+    width: 360px;
+    height: 120px;
+    background: #212121;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.138162);
+    border-radius: 4px;
+    margin-bottom: 22px;
+    padding: 26px 24px 22px;
+    box-sizing: border-box;
+    position: relative;
+}
 
+.hotels-font {
+    font: normal 15px 'Lato' !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    color: #FFFFFF;
+}
 
+.card-r1 {
+    width: 326px;
+    height: 266px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.138162);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    /* padding: 0 24px 22px; */
+    box-sizing: border-box;
+    position: relative;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.card-r2 {
+    width: 326px;
+    height: 266px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.138162);
+    border-radius: 4px;
+    /* margin-bottom: 22px;
+    padding: 0 24px 22px; */
+    box-sizing: border-box;
+    position: relative;
+}
