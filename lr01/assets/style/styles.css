@@ -449,11 +449,39 @@ button {
 .card-r2 {
     width: 326px;
     height: 266px;
-    background: #ffffff;
+    background: url(../images/bg.png);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.138162);
-    border-radius: 4px;
-    /* margin-bottom: 22px;
-    padding: 0 24px 22px; */
+    /* border-radius: 4px; */
+    margin-bottom: 22px;
+    padding: 24px 24px 22px;
     box-sizing: border-box;
     position: relative;
+}
+
+.pogoda-amst {
+    font: 600 13px 'Lato' !important;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0.232143px;
+    color: #212121;
+}
+
+.gradus {
+    padding-top: 14px;
+    font: 300 66px 'Lato' !important;
+    line-height: 79px;
+    letter-spacing: 0.232143px;
+    color: #212121;
+    font-weight: 300;
+}
+
+.today {
+    font: 300 13px 'Lato' !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.232143px;
+    color: #212121;
+    padding-top: 26px;
 }
