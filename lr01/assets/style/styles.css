@@ -485,3 +485,73 @@ button {
     color: #212121;
     padding-top: 26px;
 }
+.time{
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    bottom:-60px;
+    font: 300 13px 'Lato' !important;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.232143px;
+    color: #212121;
+    padding-top: 26px;
+    list-style: none;
+}
+.translator{
+    max-width:664px;
+    min-height:120px;
+    display: flex;
+    justify-content: space-between;
+}
+.translatoreng{
+    max-width:332px;
+    min-width:332px;
+    background: #FFFFFF;
+    border-radius:4px 0 0 4px;
+    padding:27px 24px;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 14px;
+}
+.language{
+    font: normal 14px 'Lato' !important;
+    font-weight: bold;
+    line-height: 19px;
+    color: #4E4E4E;
+    outline: none;
+    border:none;
+}
+.buttom-trans-eng{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right:0;
+    bottom:-9.9px;
+    width:120px;
+}
+.trans-input{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 23px;
+    color: #212121;
+    max-width: 556px;
+    height: 48px;
+    background-color: transparent;
+    border:none;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+}
+.translator-dutch{
+    max-width:332px;
+    min-width:332px;
+    background: #FFFFFF;
+    border-radius:4px 0 0 4px;
+    padding:27px 24px;
+    box-sizing: border-box;
+}
