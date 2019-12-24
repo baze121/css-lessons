@@ -415,15 +415,14 @@ button {
 }
 
 .card-middle4 {
-    width: 360px;
+    width: 320px;
     height: 120px;
     background: #212121;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.138162);
     border-radius: 4px;
-    margin-bottom: 22px;
+    margin: 0 24px 22px 0;
     padding: 26px 24px 22px;
     box-sizing: border-box;
-    position: relative;
 }
 
 .hotels-font {
@@ -485,11 +484,12 @@ button {
     color: #212121;
     padding-top: 26px;
 }
-.time{
-    display:flex;
+
+.time {
+    display: flex;
     justify-content: space-between;
     position: relative;
-    bottom:-60px;
+    bottom: -60px;
     font: 300 13px 'Lato' !important;
     font-size: 13px;
     line-height: 16px;
@@ -499,43 +499,49 @@ button {
     padding-top: 26px;
     list-style: none;
 }
-.translator{
-    max-width:664px;
-    min-height:120px;
+
+.translator {
+    max-width: 664px;
+    min-height: 120px;
     display: flex;
     justify-content: space-between;
 }
-.translatoreng{
-    max-width:332px;
-    min-width:332px;
+
+.translatoreng {
+    max-width: 332px;
+    height: 120px;
     background: #FFFFFF;
-    border-radius:4px 0 0 4px;
-    padding:27px 24px;
+    border-radius: 4px 0 0 4px;
+    padding: 27px 24px;
     box-sizing: border-box;
 }
-.top{
+
+.top {
     display: flex;
     justify-content: space-between;
     position: relative;
     margin-bottom: 14px;
 }
-.language{
+
+.language {
     font: normal 14px 'Lato' !important;
     font-weight: bold;
     line-height: 19px;
     color: #4E4E4E;
     outline: none;
-    border:none;
+    border: none;
 }
-.buttom-trans-eng{
+
+.buttom-trans-eng {
     display: flex;
     justify-content: space-between;
     position: absolute;
-    right:0;
-    bottom:-9.9px;
-    width:120px;
+    right: 0;
+    bottom: -9.9px;
+    width: 120px;
 }
-.trans-input{
+
+.trans-input {
     font-weight: bold;
     font-size: 36px;
     line-height: 23px;
@@ -543,15 +549,16 @@ button {
     max-width: 556px;
     height: 48px;
     background-color: transparent;
-    border:none;
+    border: none;
     font-family: 'Lato', sans-serif;
     outline: none;
 }
-.translator-dutch{
-    max-width:332px;
-    min-width:332px;
+
+.translator-dutch {
+    max-width: 332px;
+    height: 120px;
     background: #FFFFFF;
-    border-radius:4px 0 0 4px;
-    padding:27px 24px;
+    border-radius: 4px 0 0 4px;
+    padding: 27px 24px;
     box-sizing: border-box;
 }
